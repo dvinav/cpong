@@ -16,6 +16,8 @@ By the way, I didn’t realize the original game was horizontal, not vertical, u
 - **A**: move left  
 - **D**: move right  
 
+And **Q** to quit
+
 ## Build Requirements
 
 - A C compiler
