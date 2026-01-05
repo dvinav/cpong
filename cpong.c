@@ -118,7 +118,7 @@ void move_ball(Ball *b, int *cols) {
 
 int get_angle_change(Ball *b, Paddle *p) {
   int half = (PADDLE_WIDTH - 1) / 2;
-  int part = half / 4;
+  int part = half / 3;
   int relativeX = b->x - p->x - half;
   int contactPart = relativeX / part + 1;
   return contactPart;
