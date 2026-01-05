@@ -2,6 +2,7 @@
 
 A simple **terminal Pong game written in C**, created as a practice project.
 The program is tested on MacOS, and won't work on Windows.
+By the way, I didn’t realize the original game was horizontal, not vertical, until I was done.
 
 ## Controls
 
