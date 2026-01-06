@@ -68,7 +68,7 @@ void game_over() {
 // ------- PADDLE
 
 void draw_paddle(Paddle *p) {
-  char buf[32];
+  char buf[64];
   int len = 0;
 
   len += snprintf(buf + len, sizeof(buf) - len, ESC "[%d;%dH", p->y, p->x);
